@@ -8,10 +8,10 @@ match operation:
         print(f"The result is {result}")
     case "-":
         result=(num1 + num2)
-        print(f"The result is {result}")
+        print(f"The result is {result}.")
     case "*":
         result=(num1 + num2)
-        print(f"The result is {result}")
+        print(f"The result is {result}.")
     case "/":
         result=(num1 / num2)
         if num2 == 0:
