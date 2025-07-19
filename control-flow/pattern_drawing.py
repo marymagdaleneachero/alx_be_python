@@ -5,4 +5,4 @@ while row <length:
     for col in range(length):
         print("*",end="")
     print()
-    row+=1
+    row += 1
