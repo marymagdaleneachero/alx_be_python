@@ -15,11 +15,6 @@ class Book:
         """Mark the book as returned."""
         self._is_checked_out = False
 
-    # def is_available(self):
-    #     """Check if the book is not checked out."""
-    #     return not self._is_checked_out
-
-
 class Library:
     def __init__(self):
         self._books = []   # Private list of Book objects
