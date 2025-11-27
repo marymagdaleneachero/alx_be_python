@@ -1,8 +1,8 @@
 class Book:
     def __init__(self, title, author):
-        self.title = title              # Public attribute
-        self.author = author            # Public attribute
-        self._is_checked_out = False    # Private attribute
+        self.title = title  # Public attribute
+        self.author = author  # Public attribute
+        self._is_checked_out = False  # Private attribute
 
     def check_out(self):
         """Mark the book as checked out if available."""
@@ -15,9 +15,10 @@ class Book:
         """Mark the book as returned."""
         self._is_checked_out = False
 
+
 class Library:
     def __init__(self):
-        self._books = []   # Private list of Book objects
+        self._books = []  # Private list of Book objects
 
     def add_book(self, book):
         """Add a Book object to the library."""

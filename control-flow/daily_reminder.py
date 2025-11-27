@@ -29,29 +29,15 @@ match priority:
     case "low":
         base_message = f"'{task}' is a low priority task"
     case _:
-        base_message = f"'{task}' is a task"  
+        base_message = f"'{task}' is a task"
 
 
 if time_bound == "yes":
     final_message = base_message + " that requires immediate attention today!"
 else:
-    final_message = "Note: " + base_message + ". Consider completing it when you have free time."
+    final_message = (
+        "Note: " + base_message + ". Consider completing it when you have free time."
+    )
 
 
 print("\nReminder:", final_message)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
